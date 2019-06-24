@@ -1,0 +1,13 @@
+.header-container {
+    display: grid;
+    grid-template: 1fr / 1fr;
+    height: 100%;
+    margin-bottom: 40px;
+    background: blue;
+}
+
+.header-title {
+    display: grid;
+    margin: 0;
+    justify-items: center;
+}

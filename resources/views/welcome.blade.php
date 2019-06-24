@@ -11,7 +11,7 @@
         <link href="{{ mix('css/app.css') }}" rel="stylesheet">
     </head>
     <body>
-        <div class="container" id="app"></div>
+        <div class="container" style="margin: 0; padding:0; max-width:100%;" id="app"></div>
             <!-- Here go your React Render App -->
         <script src="{{ mix('js/app.js') }}"></script>
     </body>

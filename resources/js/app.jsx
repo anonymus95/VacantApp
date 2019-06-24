@@ -1,7 +1,7 @@
 import React from "react"
 import {render} from "react-dom"
-import Home from "./components/home.jsx"
+import Layout from "./components/layout/layout"
 
 const app = document.getElementById("app")
 
-render(<Home />,app)
+render(<Layout />,app)
